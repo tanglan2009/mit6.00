@@ -1,5 +1,3 @@
-
-
 class Weird(object):
     def __init__(self, x, y):
         self.y = y
@@ -14,20 +12,17 @@ class Wild(object):
     def __init__(self, x, y):
         self.y = y
         self.x = x
+
     def getX(self):
         return self.x
     def getY(self):
         return self.y
-
 
 X = 7
 Y = 8
 
 w1 = Weird(X, Y)
 print w1.getX()
-#print w1.x
-
-w2 = Wild(X, Y)
-print w2.getX()
-
-
+# w4 = Wild(X, 18)
+# print w4.getX()
+# print w4.getY()
